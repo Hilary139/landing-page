@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(##);
+    background-repeat: no-repeat;
+    background-color: #5FB3AE;
+
+}
+
+#particles-js{
+    margin: 0px;
+    display: block;
+    position: absolute top left;
+    width: 100%;
+    height:500px;
+}
+
+/* menu starts here*/
+
+.ham {
+    position: absolute;
+    /* always keep ham on top of everything */
+    z-index: 1000;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    /* show the menu image */
+    background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+    background-size: 100%;
+  }
+
+  /* change ham image to close */
+.showClose {
+    background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+  }
+
+  .navbar {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #676767;
+    width: 100vw;
+    height: 35vh;
+    overflow: hidden;
+    color: white;
+    /* hide the menu above the screen by default */
+    transform: translateY(-100%);
+    /* transition adds a little animation when sliding in and out the menu */
+    transition: transform 0.5s ease;
+  }
+  .navbar ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 8% auto;
+    font-size: 19px;
+  }
+
+  h1{
+      position: absolute;
+      width: 200px;
+      top: 8px;
+      left: 6%;
+      color: #fff;
+      
+  }
+
+  /* menu bar style ends*/
+
+  .showNav {
+    /* show the menu */
+    transform: translateY(0);
+  }
+
+.container{
+    text-align: center;
+    margin: 8% auto;
+    
+}
+
+.container h2{
+    text-align: center;
+    margin: 8% auto;
+    text-transform: capitalize;
+    color: darkorchid;
+    font-size: 50px;
+    font-family: 'Hanalei', cursive;
+    margin-top: 80px;
+}
+/* button styles begins here*/
+.btn1 {
+    text-align: center;
+    float: center;
+    text-transform: capitalize;
+    size: 40px;
+    padding: 10px;
+    width: 30%;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.btn2{
+    text-align: center;
+    float: center;
+    text-transform: capitalize;
+    size: 40px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 30%;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #639CBE;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+/* button ends here*/
+.container p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color:whitesmoke;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+
+/*horizontal line */
+
+.hr{
+    width: 290px;
+    margin-top: 40px;
+    color: black ;
+
+}
+/* horizontal ends here*/
+
+/* about us styles*/
+.about{
+    color: #C2FDFD;
+    background-color: #3d3737;
+    text-align: center;
+    z-index: 10px;
+    font-family: 'Ultra', serif;
+
+}
+
+h4{
+    color: #155d5f;
+    text-transform: capitalize;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.p-about{
+    text-transform: capitalize;
+    font-size: 26px;
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*font awesome icons styling*/
+
+.fab , .fas{
+    color: blue;
+    word-spacing: 20px;
+    margin-right: 10px;
+    text-align: right;
+
+}
+
+/* audio control for index page */
+.audio-main{
+    margin-top: 5px;
+    
+
+}
+
+.ctrl{
+    background-color:transparent;
+}
+
+
+/* footer begins here*/
+
+.footer{
+    background-color:black ;
+    color: white;
+    background-size: 100%;
+    height: 150px;
+    
+}
+.p-footer{
+    text-transform: capitalize;
+    font-size: 19px;
+    text-align: right;
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    text-decoration-style: solid;
+    text-decoration: underline;
+    
+}
+
+.f-contact2{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -10%;
+    text-transform: capitalize;
+    font-size: 19px;
+    text-decoration-style: solid;
+    text-decoration: underline;
+
+}
+
+.contact{
+    text-align: left;
+    margin-left: 30px;
+    text-transform: capitalize;
+    
+}
+
+.social{
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: -40px;
+    
+}
+/*copyright*/
+
+.copy{
+    text-align: center;
+}
+
