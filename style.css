@@ -73,14 +73,32 @@ body{
     font-size: 19px;
   }
 
+  .navbar ul li a:hover{
+      background-color: #fff;
+      color: black;
+      text-shadow: 0 5px 3px rgba(3, 1, 3, 0);
+      text-decoration: underline;
+  }
+  .one , .two{
+      color: #5FB3AE;
+      text-decoration-style: solid;
+      text-decoration: underline;
+  }
+
   h1{
       position: absolute;
-      width: 200px;
-      top: 8px;
+      width: 400px;
+      top:-16px;
       left: 6%;
       color: #fff;
+      font-size: 50px;
+      font-family: 'Sacramento', cursive;
       
   }
+
+  .e-head{
+    color: #3d3737;
+}
 
   /* menu bar style ends*/
 
@@ -100,10 +118,11 @@ body{
     margin: 8% auto;
     text-transform: capitalize;
     color: darkorchid;
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Hanalei', cursive;
     margin-top: 80px;
 }
+
 /* button styles begins here*/
 .btn1 {
     text-align: center;
@@ -206,6 +225,14 @@ h4{
 }
 
 
+
+/* service page stylings*/
+
+
+
+
+
+
 /* footer begins here*/
 
 .footer{
@@ -217,7 +244,7 @@ h4{
 }
 .p-footer{
     text-transform: capitalize;
-    font-size: 19px;
+    font-size: 25px;
     text-align: right;
     margin-right: 1.25em;
     margin-bottom: 2em;
@@ -231,9 +258,10 @@ h4{
     margin-left: 30px;
     margin-top: -10%;
     text-transform: capitalize;
-    font-size: 19px;
+    font-size: 25px;
     text-decoration-style: solid;
     text-decoration: underline;
+    margin-top: 5px;
 
 }
 
@@ -241,6 +269,8 @@ h4{
     text-align: left;
     margin-left: 30px;
     text-transform: capitalize;
+    font-size: 15px;
+   
     
 }
 
@@ -249,10 +279,12 @@ h4{
     margin-right: 50px;
     margin-bottom: -40px;
     
+    
 }
 /*copyright*/
 
 .copy{
     text-align: center;
+    margin-top: 40px;
 }
 
