@@ -131,7 +131,7 @@ body{
     size: 40px;
     padding: 10px;
     width: 30%;
-    margin-top: 50px;
+    margin-top: 10px;
     color: white;
     font-family: 'Orbitron', sans-serif;
     background-color: transparent;
@@ -147,7 +147,8 @@ body{
     text-transform: capitalize;
     size: 40px;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 50%;
     width: 30%;
     font-family: 'Orbitron', sans-serif;
     background-color: #639CBE;
@@ -183,6 +184,7 @@ body{
     text-align: center;
     z-index: 10px;
     font-family: 'Ultra', serif;
+    margin-top: 40px;
 
 }
 
