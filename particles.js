@@ -13,16 +13,6 @@ function toggleHamburger(){
 
   // blog alert
 function message(){
-  alert("get latest info about the school visit our blog");
+  alert("get latest info about the school, visit our blog");
 }
-
-//vue.js code
-
-var app = new vue({
-  el:"#container",
-  data:{
-    heading:"abuad help!!"
-  }
-})
-
 
