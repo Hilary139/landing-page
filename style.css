@@ -356,6 +356,26 @@ h5{
 
   /*services styles and pdf style also podcast and videos (background responsive) */
 /* for bold text on service page*/
+
+.search{
+    text-align: center;
+    margin-top: -50px;
+  
+
+}
+
+input{
+   border-radius: 30px;
+   height: 30px;
+   width: 250px;
+  
+}
+
+.search i {
+    margin-left: -30px;
+}
+
+
 b{
     color:blue;
 }

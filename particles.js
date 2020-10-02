@@ -16,3 +16,8 @@ function message(){
   alert("get latest info about the school, visit our blog");
 }
 
+// jquery 
+
+$(".search-item").search({
+
+});
