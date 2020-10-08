@@ -179,8 +179,8 @@ body{
 
 /* about us styles*/
 .about{
-    color: #C2FDFD;
-    background-color: #3d3737;
+    color: #fff;
+    background-color: #555d8a;
     text-align: center;
     z-index: 10px;
     font-family: 'Ultra', serif;
@@ -207,6 +207,17 @@ h5{
     text-decoration-style: solid;
     text-align: center;
     margin-top: -400px;
+}
+
+h6{
+    margin-top: 80px;
+    color: #b1eef7;
+    text-transform: capitalize;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-align: center;
+   
 }
 
 .p-about{
@@ -318,7 +329,16 @@ h5{
     margin: 5% auto;
   }
   
-
+  /* testimony styles*/
+.p-test{
+    text-transform: capitalize;
+    font-size: 26px;
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: -100px;
+}
 
   /*pdf files styles*/
 
@@ -386,9 +406,6 @@ b:hover{
 }
 
   .wrapper1{
-     /* width: 1280px;
-      margin: 10px auto;
-      */
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -396,13 +413,7 @@ b:hover{
   }
 
   .box{
-     /* width: 400px;
-      height: 400px;
-      background: darkcyan;
-      float: left;
-      margin: 0 12px;
-      overflow: hidden;
-      */
+    
       position: relative;
       display: flex;
       flex-direction: column;
@@ -460,26 +471,22 @@ b:hover{
       background: rgba(255,255,255,0.1);
       display: inline-block;
       border-radius: 100%;
-      animation: ripple 0.6s linear infinite;
+      animation: ripple 0.9s linear infinite;
   }
 
- /* @keyframes ripple{
+  @keyframes ripple{
       0%{
-          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
-                      0 0 0 120px rgba(255, 255, 255, 0.1);
-                      0 0 0 120px rgba(255, 255, 255, 0.1);
-                      0 0 0 180px rgba(255, 255, 255, 0.1);
+          box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.1);
+                     
           
       }
 
       100%{
-        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
-                    0 0 0 220px rgba(255, 255, 255, 0.1);
-                    0 0 0 340px rgba(255, 255, 255, 0.1);
-                    0 0 0 760px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 30px rgba(12, 12, 12, 0.1);
+                  
     }
   }
-*/
+
 
   .box:hover{
       background: #3d3737;

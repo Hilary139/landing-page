@@ -13,7 +13,15 @@ function toggleHamburger(){
 
   // blog alert
 function message(){
-  alert("get latest info about the school, visit our blog");
+  alert("GET LATEST GIST FROM OUR BLOG :)");
+}
+
+function podcast(){
+  alert("NO PODCAST AVAILABLE YET .. THANKS ")
+}
+
+function audio(){
+  alert("##")
 }
 
 // jquery 
